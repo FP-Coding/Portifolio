@@ -19,6 +19,7 @@
         "react"
     ],
     "rules": {
-      "comma-dangle":"off"
+      "comma-dangle":"off",
+      "react/jsx-props-no-spreading": "off"
     }
 }
