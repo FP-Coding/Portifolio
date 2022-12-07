@@ -8,11 +8,11 @@ function Nav() {
   return (
     <div>
       <button
-        className="lg:hidden m-4"
+        className="lg:hidden m-4 "
         type="button"
         onClick={() => setIsHidden(!isHidden)}
       >
-        <List size={32} />
+        <List size={32} weight="bold" />
       </button>
       <nav
         className={`lg:hidden 
@@ -33,7 +33,7 @@ function Nav() {
             type="button"
             onClick={() => setIsHidden(!isHidden)}
           >
-            <X size={32} />
+            <X size={32} weight="bold" />
           </button>
           <li>
             <Link to="/quem-somos">QUEM SOMOS</Link>
