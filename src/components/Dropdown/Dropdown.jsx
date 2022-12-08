@@ -8,14 +8,14 @@ function Nav() {
   return (
     <div>
       <button
-        className="lg:hidden m-4 "
+        className="md:hidden m-4"
         type="button"
         onClick={() => setIsHidden(!isHidden)}
       >
         <List size={32} weight="bold" />
       </button>
       <nav
-        className={`lg:hidden 
+        className={`md:hidden 
         ${isHidden ? 'hidden' : 'flex'} 
         flex-col 
         gap-3 
@@ -29,7 +29,7 @@ function Nav() {
       >
         <ul className="flex flex-col gap-4 m-4">
           <button
-            className="lg:hidden"
+            className="md:hidden"
             type="button"
             onClick={() => setIsHidden(!isHidden)}
           >

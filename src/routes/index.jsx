@@ -5,7 +5,8 @@ import Home from '../pages/Home/Home';
 function Routes() {
   return (
     <Switch>
-      <Route exact to="/" render={(props) => <Home {...props} />} />
+      <Route exact path="/" render={(props) => <Home {...props} />} />
+      <Route path render="" />
     </Switch>
   );
 }

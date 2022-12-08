@@ -10,7 +10,8 @@ function Header() {
       <Link to="/" className="m-4">
         <img href="" alt="Logo" />
       </Link>
-      <ul className="hidden lg:flex list-none gap-4 m-4">
+      <Dropdown />
+      <ul className="hidden md:flex list-none gap-4 m-4">
         <li>
           <Link to="/quem-somos">QUEM SOMOS</Link>
         </li>
@@ -24,7 +25,6 @@ function Header() {
           <Link to="/contato">CONTATO</Link>
         </li>
       </ul>
-      <Dropdown />
     </header>
   );
 }
