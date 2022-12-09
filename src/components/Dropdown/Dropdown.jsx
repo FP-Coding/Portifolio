@@ -16,7 +16,7 @@ function Nav() {
       </button>
       <nav
         className={`md:hidden 
-        ${isHidden ? 'hidden' : 'flex'} 
+        ${isHidden ? 'flex' : 'hidden'} 
         flex-col 
         gap-3 
         fixed
@@ -27,12 +27,8 @@ function Nav() {
         h-screen
         bg-gray-500`}
       >
-        <ul className="flex flex-col gap-4 m-4">
-          <button
-            className="md:hidden"
-            type="button"
-            onClick={() => setIsHidden(!isHidden)}
-          >
+        <ul className="md:hidden flex flex-col gap-4 m-4">
+          <button type="button" onClick={() => setIsHidden(!isHidden)}>
             <X size={32} weight="bold" />
           </button>
           <li>
