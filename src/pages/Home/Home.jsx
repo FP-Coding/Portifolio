@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import funcionarios from '../../assets/funcionarios';
 import CardFuncionario from '../../components/CardFuncionario/CardFuncionario';
+import Footer from '../../components/Footer/Footer';
 // import PropTypes from 'prop-types';
 
 function Home() {
   return (
-    <div>
+    <div className="flex flex-col justify-between gap-2">
       <Header />
-      <div className="flex flex-col gap-2 justify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg m-10">
+      <div className="flex flex-col gap-4 ustify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg mt-12 mr-12 ml-12">
         <h2 className="text-3xl">Quem somos</h2>
         <p>
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -36,7 +37,7 @@ function Home() {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-2 justify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg m-10">
+      <div className="flex flex-col gap-4 justify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg m-12">
         <h2 className="text-3xl">Corpo Jurídico</h2>
         <div className="flex flex-wrap gap-16 justify-evenly items-center text-center">
           {funcionarios.map((info) => (
@@ -50,17 +51,7 @@ function Home() {
           Saiba Mais
         </Link>
       </div>
-
-      <div className="flex flex-col gap-2 justify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg m-10">
-        <h2 className="text-3xl">Contato</h2>
-
-        <Link
-          to="/contato"
-          className="bg-blue-900 w-36 text-center justify-center p-2 rounded hover:bg-opacity-70 hover:text-yellow-300"
-        >
-          Saiba Mais
-        </Link>
-      </div>
+      <Footer />
     </div>
   );
 }
