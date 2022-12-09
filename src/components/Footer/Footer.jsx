@@ -8,7 +8,7 @@ function Footer() {
       <img href="" alt="Logo" className="pt-8 mb-4" />
       <hr className="w-72 h-2" />
       <p>Rua Jorge Veiga - nº 262 - Parque 10 - Manaus/AM</p>
-      <p>
+      <p className="flex justify-center items-center">
         <span>
           <Envelope
             size={24}
@@ -19,7 +19,10 @@ function Footer() {
         </span>
         <span className="ml-2">breves.advocacia@gmail.com</span>
       </p>
-      <p className="pb-4">
+      <a
+        href="https://wa.me/+559294304333"
+        className="flex justify-center items-center pb-4"
+      >
         <span>
           <WhatsappLogo
             size={24}
@@ -29,10 +32,11 @@ function Footer() {
           />
         </span>
         <span className="ml-2">+55 92 9430-4333</span>
-      </p>
-      <p className="bottom-0 mb-2 w-full">
+      </a>
+      <p className="bottom-0 mb-2 w-full pl-6">
         <span className="ml-4">Desenvolvido por</span>
-        <a href="https://github.com/FP-Coding"> Felipe Pinto</a>
+        <a href="https://github.com/FP-Coding"> Felipe Pinto,</a>
+        <span> 2022</span>
       </p>
     </footer>
   );

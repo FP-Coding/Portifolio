@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="flex flex-col justify-between gap-2">
       <Header />
-      <div className="flex flex-col gap-4 ustify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg mt-12 mr-12 ml-12">
+      <div className="flex flex-col gap-4 ustify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg mt-12 mr-10 ml-10">
         <h2 className="text-3xl">Quem somos</h2>
         <p>
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -37,7 +37,7 @@ function Home() {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-4 justify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg m-12">
+      <div className="flex flex-col gap-4 justify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg m-12 mr-10 ml-10">
         <h2 className="text-3xl">Corpo Jurídico</h2>
         <div className="flex flex-wrap gap-16 justify-evenly items-center text-center">
           {funcionarios.map((info) => (

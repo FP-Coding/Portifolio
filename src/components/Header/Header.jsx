@@ -6,7 +6,7 @@ import '../../index.css';
 
 function Header() {
   return (
-    <header className="flex justify-between bg-blue-900">
+    <header className="flex justify-between bg-blue-900 pr-6 pl-6">
       <Link to="/" className="m-4">
         <img href="" alt="Logo" />
       </Link>
