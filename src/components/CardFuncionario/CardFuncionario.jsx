@@ -8,7 +8,6 @@ function CardFuncionario({ nome, foto, cargo }) {
       <img className="w-32 rounded-[10%]" src={foto} alt={nome} />
       {cargo.nome === 'Advogado' ? (
         <p>
-          OAB:
           <span>{cargo.oab}</span>
         </p>
       ) : (

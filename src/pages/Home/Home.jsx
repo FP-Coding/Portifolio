@@ -30,7 +30,7 @@ function Home() {
         </p>
         <Link
           to="/quem-somos"
-          className="bg-blue-900 w-36 text-center justify-center p-2 rounded hover:bg-opacity-70"
+          className="bg-blue-900 w-36 text-center justify-center p-2 rounded hover:bg-opacity-70 hover:text-yellow-300"
         >
           Saiba Mais
         </Link>
@@ -45,7 +45,7 @@ function Home() {
         </div>
         <Link
           to="/corpo-juridico"
-          className="bg-blue-900 w-36 text-center justify-center p-2 rounded hover:bg-opacity-70"
+          className="bg-blue-900 w-36 text-center justify-center p-2 rounded hover:bg-opacity-70 hover:text-yellow-300"
         >
           Saiba Mais
         </Link>
@@ -56,7 +56,7 @@ function Home() {
 
         <Link
           to="/contato"
-          className="bg-blue-900 w-36 text-center justify-center p-2 rounded hover:bg-opacity-70"
+          className="bg-blue-900 w-36 text-center justify-center p-2 rounded hover:bg-opacity-70 hover:text-yellow-300"
         >
           Saiba Mais
         </Link>
