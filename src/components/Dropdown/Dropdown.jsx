@@ -25,7 +25,7 @@ function Nav() {
         w-2/3
         p-4
         h-screen
-        bg-gray-500`}
+        bg-purple-900`}
       >
         <ul className="md:hidden flex flex-col gap-4 m-4">
           <button type="button" onClick={() => setIsHidden(!isHidden)}>

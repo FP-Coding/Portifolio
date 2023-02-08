@@ -20,7 +20,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -29,7 +35,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -38,7 +50,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -47,7 +65,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -56,7 +80,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -65,7 +95,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -74,7 +110,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -83,7 +125,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -92,7 +140,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -101,7 +155,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -110,7 +170,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   },
   {
@@ -119,7 +185,13 @@ const projects = [
     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
     et quas molestias excepturi sint occaecati cupiditate non provident,
     similique sunt in culpa qui officia deserunt mollitia animi`,
-    technologies: [],
+    technologies: [
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder',
+      'placeholder'
+    ],
     image: null
   }
 ];

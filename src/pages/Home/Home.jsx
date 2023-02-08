@@ -95,7 +95,7 @@ function Home() {
           <img
             src={minhaFoto}
             alt="minha foto"
-            className="rounded-3xl p-4 h-[45vh]"
+            className="rounded-[20%] p-6 w-[100%] md:h-[42vw]"
           />
         </div>
         <Link
@@ -106,16 +106,16 @@ function Home() {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-4 justify-center items-center  p-4 bg-opacity-20 bg-white rounded-lg m-12 mr-10 ml-10">
-        <h2 className="text-3xl">Corpo Jurídico</h2>
-        <div className="flex flex-wrap gap-16 justify-evenly items-center text-center">
+      <div className="flex flex-col gap-6 justify-center items-center p-6 bg-opacity-20 bg-white rounded-lg m-12 mr-10 ml-10">
+        <h2 className="text-3xl">Projetos</h2>
+        <div className="flex gap-16 pl-6 py-8 max-w-[98%] justify-between items-center overflow-x-scroll">
           {projects.map((info) => (
             <CardProject {...info} />
           ))}
         </div>
         <Link
           to="/projetos"
-          className="bg-black w-36 text-center justify-center p-2 rounded hover:bg-opacity-70 hover:text-yellow-300"
+          className="bg-black w-36 text-center justify-center p-2 rounded hover:bg-opacity-70 hover:text-yellow-300 top-10"
         >
           Saiba Mais
         </Link>
