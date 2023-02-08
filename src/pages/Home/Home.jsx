@@ -12,7 +12,7 @@ function Home() {
     <div id="quem-sou" className="flex flex-col justify-between gap-2">
       <Header />
       <div className="flex flex-col justify-center items-center p-4 bg-opacity-20 bg-white rounded-lg mt-24 mr-10 ml-10">
-        <h2 className="text-3xl text-center mt-4">Quem sou</h2>
+        <h2 className="text-3xl text-center mt-4 font-bold">QUEM SOU</h2>
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="mb-4 p-4">
             <p className="text-justify">
@@ -98,16 +98,10 @@ function Home() {
             className="rounded-[20%] p-6 w-[100%] md:h-[42vw]"
           />
         </div>
-        <Link
-          to="/quem-sou"
-          className="bg-black w-36 text-center justify-center p-2 mb-4 rounded hover:bg-opacity-70 hover:text-yellow-300"
-        >
-          Saiba Mais
-        </Link>
       </div>
 
       <div className="flex flex-col gap-6 justify-center items-center p-6 bg-opacity-20 bg-white rounded-lg m-12 mr-10 ml-10">
-        <h2 className="text-3xl">Projetos</h2>
+        <h2 className="text-3xl font-bold">PROJETOS</h2>
         <div className="flex gap-16 pl-6 py-8 max-w-[98%] justify-between items-center overflow-x-scroll">
           {projects.map((info) => (
             <CardProject {...info} />

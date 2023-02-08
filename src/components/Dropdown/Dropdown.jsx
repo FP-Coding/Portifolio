@@ -37,7 +37,7 @@ function Nav() {
           <hr className="border" />
 
           <li>
-            <Link to="/corpo-juridico">PROJETOS</Link>
+            <Link to="/projetos">PROJETOS</Link>
           </li>
           <hr className="border" />
 
