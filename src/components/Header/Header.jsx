@@ -6,14 +6,14 @@ import '../../index.css';
 
 function Header() {
   return (
-    <header className="flex justify-between bg-black pr-6 pl-6">
+    <header className="flex justify-between bg-black pr-6 pl-6 fixed w-full">
       <Link to="/" className="m-4">
         <img href="" alt="Logo" />
       </Link>
       <Dropdown />
       <ul className="hidden md:flex list-none gap-4 m-4">
         <li>
-          <Link to="/quem-sou">QUEM SOU</Link>
+          <a href="#quem-sou">QUEM SOU</a>
         </li>
         <li>
           <Link to="/projetos">PROJETOS</Link>

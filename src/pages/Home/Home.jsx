@@ -9,11 +9,11 @@ import Footer from '../../components/Footer/Footer';
 
 function Home() {
   return (
-    <div className="flex flex-col justify-between gap-2">
+    <div id="quem-sou" className="flex flex-col justify-between gap-2">
       <Header />
-      <div className="flex flex-col justify-center items-center p-4 bg-opacity-20 bg-white rounded-lg mt-12 mr-10 ml-10">
+      <div className="flex flex-col justify-center items-center p-4 bg-opacity-20 bg-white rounded-lg mt-24 mr-10 ml-10">
         <h2 className="text-3xl text-center mt-4">Quem sou</h2>
-        <div className=" flex justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="mb-4 p-4">
             <p className="text-justify">
               At vero eos et accusamus et iusto odio dignissimos ducimus qui

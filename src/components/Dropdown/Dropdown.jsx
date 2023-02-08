@@ -32,7 +32,7 @@ function Nav() {
             <X size={32} weight="bold" />
           </button>
           <li>
-            <Link to="/quem-somos">QUEM SOU</Link>
+            <a href="#quem-sou">QUEM SOU</a>
           </li>
           <hr className="border" />
 
