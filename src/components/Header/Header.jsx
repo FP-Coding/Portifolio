@@ -6,20 +6,17 @@ import '../../index.css';
 
 function Header() {
   return (
-    <header className="flex justify-between bg-blue-900 pr-6 pl-6">
+    <header className="flex justify-between bg-black pr-6 pl-6">
       <Link to="/" className="m-4">
         <img href="" alt="Logo" />
       </Link>
       <Dropdown />
       <ul className="hidden md:flex list-none gap-4 m-4">
         <li>
-          <Link to="/quem-somos">QUEM SOMOS</Link>
+          <Link to="/quem-sou">QUEM SOU</Link>
         </li>
         <li>
-          <Link to="/corpo-juridico">CORPO JURÍDICO</Link>
-        </li>
-        <li>
-          <Link to="/areas-de-atuacao">ÁREAS DE ATUAÇÃO</Link>
+          <Link to="/projetos">PROJETOS</Link>
         </li>
         <li>
           <Link to="/contato">CONTATO</Link>

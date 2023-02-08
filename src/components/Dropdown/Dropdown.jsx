@@ -32,17 +32,12 @@ function Nav() {
             <X size={32} weight="bold" />
           </button>
           <li>
-            <Link to="/quem-somos">QUEM SOMOS</Link>
+            <Link to="/quem-somos">QUEM SOU</Link>
           </li>
           <hr className="border" />
 
           <li>
-            <Link to="/corpo-juridico">CORPO JURÍDICO</Link>
-          </li>
-          <hr className="border" />
-
-          <li>
-            <Link to="/areas-de-atuacao">ÁREAS DE ATUAÇÃO</Link>
+            <Link to="/corpo-juridico">PROJETOS</Link>
           </li>
           <hr className="border" />
 
