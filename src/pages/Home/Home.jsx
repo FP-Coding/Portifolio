@@ -12,7 +12,7 @@ function Home() {
   return (
     <div id="quem-sou" className="flex flex-col justify-between gap-2">
       <Header />
-      <div className="flex flex-col gap-6 justify-center items-center p-4 bg-opacity-20 bg-white rounded-lg mt-24 mr-10 ml-10">
+      <div className="flex flex-col gap-6 justify-center items-center p-4 bg-opacity-20 bg-white rounded-lg mt-40 mr-10 ml-10">
         <h2 className="text-3xl text-center mt-4 font-bold">QUEM SOU</h2>
         <hr className="w-72 h-2" />
         <div className="flex flex-col md:flex-row justify-center items-center">
@@ -72,10 +72,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-6 justify-center items-center p-6 bg-opacity-20 bg-white rounded-lg m-12 mr-10 ml-10">
+      <div className="flex flex-col gap-6 justify-center items-center p-6 py-20 bg-opacity-20 bg-white rounded-lg m-12 mr-10 ml-10">
         <h2 className="text-3xl font-bold">PROJETOS</h2>
         <hr className="w-72 h-2" />
-        <div className="flex gap-16 pl-6 py-8 max-w-[98%] justify-between items-center overflow-x-scroll">
+        <div className="flex gap-10 w-[90%] justify-center items-center flex-wrap">
           {projects.map((info) => (
             <CardProject {...info} />
           ))}

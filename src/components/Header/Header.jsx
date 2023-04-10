@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown } from '../Dropdown';
 import '../../index.css';
+import { Logo } from '../Logo';
 // import PropTypes from 'prop-types';
 
 function Header() {
   return (
-    <header className="flex justify-between bg-black pr-6 pl-6 fixed w-full">
+    <header className="flex justify-between items-center bg-black pr-6 pl-6 fixed w-full">
       <Link to="/" className="m-4">
-        <img href="" alt="Logo" />
+        <Logo width="100px" />
       </Link>
       <Dropdown />
       <ul className="hidden md:flex list-none gap-4 m-4">
