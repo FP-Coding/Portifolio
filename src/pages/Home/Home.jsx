@@ -67,7 +67,7 @@ function Home() {
           <img
             src={minhaFoto}
             alt="minha foto"
-            className="rounded-[20%] p-6 w-[100%] md:h-[42vw]"
+            className="rounded-[20%] p-6 md:h-[28vw] min-h-[350px]"
           />
         </div>
       </div>
