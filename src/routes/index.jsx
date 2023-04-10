@@ -6,7 +6,6 @@ function Routes() {
   return (
     <Switch>
       <Route exact path="/" render={(props) => <Home {...props} />} />
-      <Route path render="" />
     </Switch>
   );
 }
