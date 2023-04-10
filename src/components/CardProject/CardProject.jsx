@@ -6,7 +6,9 @@ function CardProject({ name, image, technologies, description, githubLink }) {
     <div className="flex text-justify items-center rounded-lg min-w-[275px] md:h-[700px] w-[30%] lg:h-[70vh] border-white border-2 ">
       <a
         href={githubLink}
+        target="_blank"
         className="flex text-justify items-center flex-col gap-[16px] p-[16px]"
+        rel="noreferrer"
       >
         <h3 className="text-center">{name}</h3>
         <br />
