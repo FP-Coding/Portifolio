@@ -21,8 +21,8 @@ function Home() {
               {`Meu nome é Felipe Pinto, tenho ${idade} anos. Assim que me formei
               no ensino médio eu não sabia muito bem o que gostaria de fazer.
               Mas me foi ofericido a oportunidade de trabalhar como Design
-              Gráfico na Atualcard Manaus e apesar de que na época eu não sabia
-              nada sobre a área em menos de dois meses eu já conseguia atender
+              Gráfico na Atualcard Manaus e , apesar de que na época eu não sabia
+              nada sobre a área, em menos de dois meses eu já conseguia atender
               clientes e criar artes normalmente. Depois de um ano eu comecei a
               me sentir frustrado e não me via trabalhando na área futuramente e
               decidi procurar uma outra área.`}
