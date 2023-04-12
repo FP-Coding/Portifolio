@@ -14,13 +14,10 @@ function Header() {
       <Dropdown />
       <ul className="hidden md:flex list-none gap-4 m-4">
         <li>
-          <a href="#quem-sou">QUEM SOU</a>
+          <Link to="/quem-sou">QUEM SOU</Link>
         </li>
         <li>
           <Link to="/projetos">PROJETOS</Link>
-        </li>
-        <li>
-          <Link to="/contato">CONTATO</Link>
         </li>
       </ul>
     </header>

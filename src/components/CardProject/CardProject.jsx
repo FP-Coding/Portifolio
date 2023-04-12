@@ -1,9 +1,9 @@
 import React from 'react';
-import { shape, string, node } from 'prop-types';
+import { string, node, arrayOf } from 'prop-types';
 
 function CardProject({ name, image, technologies, description, githubLink }) {
   return (
-    <div className="flex text-justify items-center rounded-lg min-w-[275px] md:h-[700px] w-[30%] lg:h-[70vh] border-white border-2 ">
+    <div className="flex text-justify items-center rounded-lg min-w-[275px] md:h-[900px] w-[30%] lg:h-[70vh] border-white border-2 ">
       <a
         href={githubLink}
         target="_blank"
@@ -27,10 +27,7 @@ function CardProject({ name, image, technologies, description, githubLink }) {
 CardProject.propTypes = {
   name: string.isRequired,
   image: node.isRequired,
-  technologies: shape({
-    nome: string,
-    oab: string
-  }).isRequired,
+  technologies: arrayOf(string).isRequired,
   description: string.isRequired,
   githubLink: string.isRequired
 };
