@@ -4,11 +4,11 @@ import minhaFoto from '../../assets/myPictures/Felipe.jpg';
 
 function WhoIAm({ isSoloPage }) {
   const idade = new Date().getFullYear() - 2000;
-  const margin = isSoloPage === true ? 'mt-40 mb-20' : '';
+  const margin = isSoloPage === true ? 'mb-20' : '';
   return (
     <div
       id="quem-sou"
-      className={`flex flex-col gap-6 justify-center ${margin} items-center p-4 bg-opacity-20 bg-white rounded-lg mr-10 ml-10`}
+      className={`flex flex-col gap-6 justify-center mt-40 ${margin} items-center p-4 bg-opacity-20 bg-white rounded-lg mr-10 ml-10`}
     >
       <h2 className="text-3xl text-center mt-4 font-bold">QUEM SOU</h2>
       <hr className="w-72 h-2" />
